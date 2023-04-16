@@ -1,4 +1,5 @@
 "use client"
+import { env } from "@budget/env.mjs";
 import React, { useEffect, useState } from "react";
  
 const SwitchTheme = () => { 
@@ -15,7 +16,7 @@ const SwitchTheme = () => {
 
 
   return (
-    <button className="btn btn-circle" onClick={toggleTheme}>
+    <button className="btn btn-circle" onClick={toggleTheme}> 
       {theme === "dark" ? (
        <div className="text-blue-600">dark</div>
       ) : (
