@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import SwitchTheme from './components/switchtheme'
+import SwitchTheme from '../components/switchtheme'
 import { env } from '@budget/env.mjs'
  
 const inter = Inter({ subsets: ['latin'] })
